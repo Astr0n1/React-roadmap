@@ -1,0 +1,284 @@
+[
+  {
+    "title": "Week 1 - React Basics",
+    "days": [
+      {
+        "name": "Day 1",
+        "topic": "Intro to React, setup project, JSX basics",
+        "link": "https://react.dev/learn",
+        "completed": false
+      },
+      {
+        "name": "Day 2",
+        "topic": "Components, props, children",
+        "link": "https://react.dev/learn/passing-props-to-a-component",
+        "completed": false
+      },
+      {
+        "name": "Day 3",
+        "topic": "Rendering lists & keys",
+        "link": "https://react.dev/learn/rendering-lists",
+        "completed": false
+      },
+      {
+        "name": "Day 4",
+        "topic": "Conditional rendering (if, ternary, &&)",
+        "link": "https://react.dev/learn/conditional-rendering",
+        "completed": false
+      },
+      {
+        "name": "Day 5",
+        "topic": "Event handling in React",
+        "link": "https://react.dev/learn/responding-to-events",
+        "completed": false
+      },
+      {
+        "name": "Day 6",
+        "topic": "JSX deep dive (expressions, attributes)",
+        "link": "https://react.dev/learn/javascript-in-jsx-with-curly-braces",
+        "completed": false
+      },
+      {
+        "name": "Day 7",
+        "topic": "Mini-project: basic React app",
+        "link": "https://www.youtube.com/watch?v=b9eMGE7QtTk",
+        "completed": false
+      }
+    ]
+  },
+  {
+    "title": "Week 2 - State & Forms",
+    "days": [
+      {
+        "name": "Day 8",
+        "topic": "Intro to useState hook",
+        "link": "https://react.dev/reference/react/useState",
+        "completed": false
+      },
+      {
+        "name": "Day 9",
+        "topic": "Updating state objects & arrays",
+        "link": "https://react.dev/learn/updating-objects-in-state",
+        "completed": false
+      },
+      {
+        "name": "Day 10",
+        "topic": "Props drilling & lifting state up",
+        "link": "https://react.dev/learn/sharing-state-between-components",
+        "completed": false
+      },
+      {
+        "name": "Day 11",
+        "topic": "Forms & controlled components",
+        "link": "https://react.dev/learn/forms",
+        "completed": false
+      },
+      {
+        "name": "Day 12",
+        "topic": "Handling multiple inputs",
+        "link": "https://react.dev/learn/forms",
+        "completed": false
+      },
+      {
+        "name": "Day 13",
+        "topic": "Practice: simple form with validation",
+        "link": "https://www.youtube.com/watch?v=9YrqQf6F4Rk",
+        "completed": false
+      },
+      {
+        "name": "Day 14",
+        "topic": "Mini project: form + state management",
+        "link": "https://www.youtube.com/watch?v=7s9lDSdX3fM",
+        "completed": false
+      }
+    ]
+  },
+  {
+    "title": "Week 3 - Deeper React",
+    "days": [
+      {
+        "name": "Day 15",
+        "topic": "useEffect basics",
+        "link": "https://react.dev/reference/react/useEffect",
+        "completed": false
+      },
+      {
+        "name": "Day 16",
+        "topic": "useEffect cleanup & dependencies",
+        "link": "https://react.dev/learn/synchronizing-with-effects",
+        "completed": false
+      },
+      {
+        "name": "Day 17",
+        "topic": "useRef hook basics",
+        "link": "https://react.dev/reference/react/useRef",
+        "completed": false
+      },
+      {
+        "name": "Day 18",
+        "topic": "Context API basics",
+        "link": "https://react.dev/learn/passing-data-deeply-with-context",
+        "completed": false
+      },
+      {
+        "name": "Day 19",
+        "topic": "Custom hooks introduction",
+        "link": "https://react.dev/learn/reusing-logic-with-custom-hooks",
+        "completed": false
+      },
+      {
+        "name": "Day 20",
+        "topic": "Practice: useEffect + API fetch",
+        "link": "https://www.youtube.com/watch?v=T3Px88x_PsA",
+        "completed": false
+      },
+      {
+        "name": "Day 21",
+        "topic": "Mini project: API-based React app",
+        "link": "https://www.youtube.com/watch?v=U9T6YkEDkMo",
+        "completed": false
+      }
+    ]
+  },
+  {
+    "title": "Week 4 - TailwindCSS Basics",
+    "days": [
+      {
+        "name": "Day 22",
+        "topic": "Intro to Tailwind & setup",
+        "link": "https://tailwindcss.com/docs/installation",
+        "completed": false
+      },
+      {
+        "name": "Day 23",
+        "topic": "Utility classes & responsive design",
+        "link": "https://tailwindcss.com/docs/responsive-design",
+        "completed": false
+      },
+      {
+        "name": "Day 24",
+        "topic": "Flexbox & grid in Tailwind",
+        "link": "https://tailwindcss.com/docs/flex",
+        "completed": false
+      },
+      {
+        "name": "Day 25",
+        "topic": "Spacing, sizing, typography utilities",
+        "link": "https://tailwindcss.com/docs/spacing",
+        "completed": false
+      },
+      {
+        "name": "Day 26",
+        "topic": "Colors, shadows, borders",
+        "link": "https://tailwindcss.com/docs/customizing-colors",
+        "completed": false
+      },
+      {
+        "name": "Day 27",
+        "topic": "Practice: responsive navbar",
+        "link": "https://www.youtube.com/watch?v=dFgzHOX84xQ",
+        "completed": false
+      },
+      {
+        "name": "Day 28",
+        "topic": "Mini project: styled landing page",
+        "link": "https://www.youtube.com/watch?v=6zIuAyLZPH0",
+        "completed": false
+      }
+    ]
+  },
+  {
+    "title": "Week 5 - React + Tailwind Integration",
+    "days": [
+      {
+        "name": "Day 29",
+        "topic": "Using Tailwind inside React components",
+        "link": "https://tailwindcss.com/docs/guides/create-react-app",
+        "completed": false
+      },
+      {
+        "name": "Day 30",
+        "topic": "Conditional classNames in React",
+        "link": "https://www.npmjs.com/package/clsx",
+        "completed": false
+      },
+      {
+        "name": "Day 31",
+        "topic": "Component composition with Tailwind",
+        "link": "https://tailwindcss.com/docs/reusing-styles",
+        "completed": false
+      },
+      {
+        "name": "Day 32",
+        "topic": "Forms & validation with Tailwind + React",
+        "link": "https://www.youtube.com/watch?v=7s9lDSdX3fM",
+        "completed": false
+      },
+      {
+        "name": "Day 33",
+        "topic": "Grid layouts for product cards",
+        "link": "https://tailwindcss.com/docs/grid-template-columns",
+        "completed": false
+      },
+      {
+        "name": "Day 34",
+        "topic": "Responsive components in projects",
+        "link": "https://tailwindcss.com/docs/responsive-design",
+        "completed": false
+      },
+      {
+        "name": "Day 35",
+        "topic": "Mini project: React + Tailwind dashboard",
+        "link": "https://www.youtube.com/watch?v=Gc2eJTtBxTQ",
+        "completed": false
+      }
+    ]
+  },
+  {
+    "title": "Week 6 - Advanced React & Final Project",
+    "days": [
+      {
+        "name": "Day 36",
+        "topic": "React Router basics",
+        "link": "https://reactrouter.com/en/main/start/tutorial",
+        "completed": false
+      },
+      {
+        "name": "Day 37",
+        "topic": "Dynamic routes & navigation",
+        "link": "https://reactrouter.com/en/main/start/tutorial",
+        "completed": false
+      },
+      {
+        "name": "Day 38",
+        "topic": "Global state with Context API",
+        "link": "https://react.dev/learn/scaling-up-with-reducer-and-context",
+        "completed": false
+      },
+      {
+        "name": "Day 39",
+        "topic": "Performance optimization (memo, useMemo)",
+        "link": "https://react.dev/learn/you-might-not-need-an-effect",
+        "completed": false
+      },
+      {
+        "name": "Day 40",
+        "topic": "Deploy React + Tailwind app (Vercel/Netlify)",
+        "link": "https://vercel.com/guides/deploying-react-with-vercel",
+        "completed": false
+      },
+      {
+        "name": "Day 41",
+        "topic": "Final Project: build a small eCommerce UI",
+        "link": "https://www.youtube.com/watch?v=vyJU9efvUtQ",
+        "completed": false
+      },
+      {
+        "name": "Day 42",
+        "topic": "Review & polish project",
+        "link": "https://www.youtube.com/watch?v=0xVq0Y8Fz3o",
+        "completed": false
+      }
+    ]
+  }
+]
