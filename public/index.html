@@ -3,24 +3,61 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>React + Tailwind 6 Weeks Plan</title>
-    <link rel="stylesheet" href="./style.css" />
+    <title>Weekly Plan</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script src="script.js" defer></script>
   </head>
-  <body>
-    <header>
-      <h1>📘 React + Tailwind 6 Weeks Plan</h1>
-      <div class="nav-buttons">
-        <button onclick="scrollToWeek('week1')">Week 1</button>
-        <button onclick="scrollToWeek('week2')">Week 2</button>
-        <button onclick="scrollToWeek('week3')">Week 3</button>
-        <button onclick="scrollToWeek('week4')">Week 4</button>
-        <button onclick="scrollToWeek('week5')">Week 5</button>
-        <button onclick="scrollToWeek('week6')">Week 6</button>
+  <body class="bg-gray-100 text-gray-800 font-sans">
+    <!-- Navbar -->
+    <header class="sticky top-0 z-50 bg-white shadow-md">
+      <div
+        class="max-w-5xl mx-auto flex flex-col sm:flex-row items-center justify-between p-4 gap-2"
+      >
+        <h1 class="text-lg sm:text-2xl font-bold text-indigo-600">
+          📘 React + Tailwind 6 Weeks Plan
+        </h1>
+        <div class="flex flex-wrap gap-2">
+          <button
+            class="px-3 py-1 rounded-lg bg-indigo-100 text-indigo-600 hover:bg-indigo-200"
+            data-scroll="week1"
+          >
+            Week 1
+          </button>
+          <button
+            class="px-3 py-1 rounded-lg bg-indigo-100 text-indigo-600 hover:bg-indigo-200"
+            data-scroll="week2"
+          >
+            Week 2
+          </button>
+          <button
+            class="px-3 py-1 rounded-lg bg-indigo-100 text-indigo-600 hover:bg-indigo-200"
+            data-scroll="week3"
+          >
+            Week 3
+          </button>
+          <button
+            class="px-3 py-1 rounded-lg bg-indigo-100 text-indigo-600 hover:bg-indigo-200"
+            data-scroll="week4"
+          >
+            Week 4
+          </button>
+          <button
+            class="px-3 py-1 rounded-lg bg-indigo-100 text-indigo-600 hover:bg-indigo-200"
+            data-scroll="week5"
+          >
+            Week 5
+          </button>
+          <button
+            class="px-3 py-1 rounded-lg bg-indigo-100 text-indigo-600 hover:bg-indigo-200"
+            data-scroll="week6"
+          >
+            Week 6
+          </button>
+        </div>
       </div>
     </header>
 
-    <main id="content"></main>
-
-    <script src="script.js"></script>
+    <!-- Content -->
+    <main id="content" class="max-w-5xl mx-auto p-6 space-y-12"></main>
   </body>
 </html>
