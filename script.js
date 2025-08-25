@@ -45,7 +45,8 @@ function renderWeeks(weeks) {
           <span>${day.name}</span>
         </label>
         <p class="text-gray-600 text-sm">${day.topic}</p>
-        <a class="text-blue-500 underline text-sm" href="${day.link}" target="_blank">Resource</a>
+        <a href="${day.link}" target="_blank"
+          class="inline-block mt-2 px-4 py-1 text-sm rounded-lg bg-blue-500 text-white hover:bg-blue-600 transition"> Resource </a>
       `;
       cardsDiv.appendChild(card);
     });
